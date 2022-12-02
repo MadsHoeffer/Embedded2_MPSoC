@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
   <source>
-    <originFiles name="KF_kernel.cpp" path="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/src/hls_src/KF_kernel.cpp"/>
-    <originFiles name="KF_kernel.h" path="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/src/hls_src/KF_kernel.h"/>
     <originFiles name="matrix_ops.h" path="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/src/hls_src/matrix_ops.h"/>
+    <originFiles name="KF_kernel.h" path="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/src/hls_src/KF_kernel.h"/>
+    <originFiles name="KF_kernel.cpp" path="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/src/hls_src/KF_kernel.cpp"/>
   </source>
   <testbench>
     <originFiles name="kf_test.cpp" path="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/src/hls_src/kf_test.cpp"/>

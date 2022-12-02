@@ -55,8 +55,6 @@
                                     									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/hls"/>
-                                    									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
@@ -90,8 +88,6 @@
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/etc"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/hls"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
                                     									
@@ -161,6 +157,36 @@
                         					
                     </folderInfo>
                     					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.debug.547758197.616717285" name="kf_test.cpp" rcbsApplicability="disable" resourcePath="testbench/kf_test.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1018514009.1563175466">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1018514009.1563175466" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1018514009">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.941043630" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1303364409" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/hls"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1167617027" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1343931469" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
+                    					
                     <sourceEntries>
                         						
                         <entry excluding=".apc|.settings|solution1|*.c*|*.C*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
@@ -227,8 +253,6 @@
                                     									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
                                     									
-                                    <listOptionValue builtIn="false" value="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/hls"/>
-                                    									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
@@ -252,8 +276,6 @@
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/etc"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/hls"/>
                                     									
                                     <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
                                     									
@@ -312,6 +334,36 @@
                         </toolChain>
                         					
                     </folderInfo>
+                    					
+                    <fileInfo id="cdt.managedbuild.config.gnu.exe.release.1804899935.1939311378" name="kf_test.cpp" rcbsApplicability="disable" resourcePath="testbench/kf_test.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.686118751.1940175136">
+                        						
+                        <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.686118751.1940175136" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.686118751">
+                            							
+                            <option id="gnu.cpp.compiler.option.preprocessor.def.546685070" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def"/>
+                            							
+                            <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.112181909" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/etc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include/ap_sysc"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/EmbeddedAssignment2/Embedded2_MPSoC/hls"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/systemc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/lnx64/tools/auto_cc/include"/>
+                                								
+                                <listOptionValue builtIn="false" value="/home/mads/Xilinx/Vitis_HLS/2020.2/include"/>
+                                							
+                            </option>
+                            							
+                            <option id="gnu.cpp.compiler.option.other.other.1678900186" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-Wno-unknown-pragmas -c -fmessage-length=0" valueType="string"/>
+                            							
+                            <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1449497108" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                            						
+                        </tool>
+                        					
+                    </fileInfo>
                     					
                     <sourceEntries>
                         						

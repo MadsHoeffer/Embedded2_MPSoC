@@ -31,7 +31,8 @@ KF_data_t I[N_STATE_VARS*N_STATE_VARS] = {
 		0,0,0,0,1,0,
 		0,0,0,0,0,1
 };
-void KalmanFilterKernel(float din[BRAM_SIZE], float dout[BRAM_SIZE], float q, float r, ap_uint<24> countin) {
+float dt;
+void KalmanFilterKernel(float din[N_STATE_VARS], float dout[N_STATE_VARS], float q, float r, ap_uint<24> countin) {
 	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=din
 	#pragma HLS INTERFACE ap_memory storage_type=ram_1p port=dout
 	#pragma HLS INTERFACE s_axilite port=q bundle=AXI_CPU
@@ -39,12 +40,11 @@ void KalmanFilterKernel(float din[BRAM_SIZE], float dout[BRAM_SIZE], float q, fl
 	#pragma HLS INTERFACE s_axilite port=return bundle=AXI_CPU
 	#pragma HLS INTERFACE ap_none register port=countin
 	static ap_uint<24> prev_count = 0;
-	ap_float<32,32> dt;
 	ap_uint<24> count = countin;
 	ap_uint<24> count_max = std::pow(2,24);
-	const ap_float<32,4> freq = 100000000.;
+	const float freq = 100000000.;
 	if(count<prev_count){
-		dt = ((ap_float<32,4>)(count_max-prev_count+count))/freq;
+		dt = ((float)(count_max-prev_count+count))/freq;
 	}
 	else{
 	 dt = (count-prev_count)/freq;
